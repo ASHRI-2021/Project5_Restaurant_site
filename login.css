@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.445);
+}
+
+.navbar {
+    position: fixed;
+    top: 1px;
+    width: 97vw;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: linear-gradient(rgb(115, 0, 150),rgb(63, 0, 63));
+    border-radius: 25px;
+    color: white;
+    /* height: 60px; */
+}
+
+.brandtitle {
+    font-size: 14px;
+    /* margin: 10px; */
+    
+}
+
+.brandtitle h1 {
+    color: #ff8100;
+    margin: 12px;
+}
+
+.navbar_links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_links li {
+    list-style: none;
+}
+
+.navbar_links li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.navbar_links li a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.877);
+    
+}
+
+.toggle_button {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle_button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.log {
+    position: absolute;
+    right: 20px;
+}
+
+.log-site {
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-area {
+    width: 500px;
+    height: 400px;
+    padding-top: 80px;
+    text-align: center;
+    background: linear-gradient(rgba(231, 90, 144, 0.767), rgba(128, 0, 128, 0.527));
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.log-area h1 {
+    text-shadow: 1px 1px white;
+}
+
+.log-area .cred {
+    margin: 30px;
+}
+
+.log-area .cred input {
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.log-area .cred input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.log-area button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.log-area button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+footer {
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}

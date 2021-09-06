@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.445);
+}
+
+.navbar {
+    position: fixed;
+    top: 1px;
+    width: 97vw;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: linear-gradient(rgb(115, 0, 150),rgb(63, 0, 63));
+    border-radius: 25px;
+    color: white;
+    /* height: 60px; */
+}
+
+.brandtitle {
+    font-size: 14px;
+    /* margin: 10px; */
+    
+}
+
+.brandtitle h1 {
+    color: #ff8100;
+    margin: 12px;
+}
+
+.navbar_links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_links li {
+    list-style: none;
+}
+
+.navbar_links li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.navbar_links li a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.877);
+    
+}
+
+.toggle_button {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle_button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.log {
+    position: absolute;
+    right: 20px;
+}
+
+.box {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .reg {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(255, 125, 147, 0.685), rgba(128, 0, 128, 0.527));
+    border-radius: 25px;
+    width: 450px;
+    padding: 30px;
+    /* text-align:center; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box .reg input {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box .reg input::placeholder {
+    text-align: center;
+}
+
+.box .reg .date-time {
+    text-align: center;
+}
+
+.box .reg button {
+    width: 150px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.box .reg button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+footer {
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}

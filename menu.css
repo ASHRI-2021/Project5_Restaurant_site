@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.445);
+}
+
+.navbar {
+    position: fixed;
+    top: 1px;
+    width: 97vw;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: linear-gradient(rgb(115, 0, 150),rgb(63, 0, 63));
+    border-radius: 25px;
+    color: white;
+    /* height: 60px; */
+}
+
+.brandtitle {
+    font-size: 14px;
+    /* margin: 10px; */
+    
+}
+
+.brandtitle h1 {
+    color: #ff8100;
+    margin: 12px;
+}
+
+.navbar_links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_links li {
+    list-style: none;
+}
+
+.navbar_links li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.navbar_links li a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.877);
+    
+}
+
+.toggle_button {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle_button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.log {
+    position: absolute;
+    right: 20px;
+}
+
+.veg {
+    margin: 20px;
+    padding: 25px;
+    padding-top: 80px;
+}
+
+.veg h1 {
+    /* text-align: center; */
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 36px;
+    text-shadow: 1px 1px white;
+}
+
+.name {
+    background-color: #a474bb5b;
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 90vw;
+}
+
+.name h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.name .container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+.name .container .item {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.name .container .item img {
+    width: 220px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.name .container .item h3 {
+    padding-top: 10px;
+}
+
+footer {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
